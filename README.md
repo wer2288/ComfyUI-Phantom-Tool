@@ -4,6 +4,8 @@
 
 ![node](https://github.com/user-attachments/assets/7813ea1d-15a7-4f98-9a39-bad5fec58d85)
 
+<img width="1182" height="604" alt="image" src="https://github.com/user-attachments/assets/21e55380-4afb-47af-8716-d5196c1cf309" />
+
 
 ## 特别声明：
 * 本插件的所有节点均由AI开发，提供者（@幻影）不懂代码，如不好用或有BUG请删除。
@@ -46,6 +48,18 @@
     2、连接 ComfyUI 的 VideoFromFile/VideoFromComponents 节点输出；  
 * 自动提取首尾帧并转换为 ComfyUI 标准 IMAGE 格式，支持预览。
 
+#### 提示词翻译
+* 支持中文/英文本地翻译；
+* 支持源语言自动检测、中文输入、英文输入；
+* 支持输出语言可选中文或英文；
+* 感谢群友：@石頭，提供的思路；
+* 注：需下载translate-en_zh-1_9.argosmodel和translate-zh_en-1_9.argosmodel这两个模型。
+
+## 模型下载及安装说明
+* translate-en_zh-1_9.argosmodel下载地址：https://argos-net.com/v1/translate-en_zh-1_9.argosmodel  或https://modelscope.cn/models/wer277/translate/files  
+* translate-zh_en-1_9.argosmodel下载地址：https://argos-net.com/v1/translate-zh_en-1_9.argosmodel  或https://modelscope.cn/models/wer277/translate/files  
+* 将translate-en_zh-1_9.argosmodel和translate-zh_en-1_9.argosmodel这两个模型放在：ComfyUI\custom_nodes\ComfyUI-Phantom-Tool\models目录下。  
+
 ## 注意事项
 1、数值计算器的自定义公式仅支持 a/b/c 变量，请勿输入恶意代码；  
 2、视频首尾帧获取节点需确保视频文件路径有效，且有读取权限；  
@@ -53,6 +67,9 @@
 4、若输入类型转换失败，节点会返回兜底值（如 0 / 空字符串）并打印错误日志。  
 
 ## 安装步骤
+#### 需安装argostranslate>=1.9.0依赖包（提示词翻译要用到）：
+在ComfyUI-Phantom-Tool文件夹中安装requirment.txt；
+./ComfyUI/python_embeded/python -m pip install -r requirements.txt；  
 #### 方法一：
 1、下载本插件，将文件夹放入“ComfyUI\custom_nodes”目录下；  
 2、重启 ComfyUI，在节点面板的「👻幻影工具」分类下即可看到所有节点。
