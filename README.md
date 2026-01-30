@@ -5,7 +5,7 @@
 ![node](https://github.com/user-attachments/assets/7813ea1d-15a7-4f98-9a39-bad5fec58d85)
 
 
-## 特别申明：
+## 特别声明：
 * 本插件的所有节点均由AI开发，提供者（@幻影）不懂代码，如不好用或有BUG请删除。
 
 ## 功能说明：
