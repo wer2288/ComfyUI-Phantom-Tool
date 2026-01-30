@@ -49,5 +49,11 @@
 4、若输入类型转换失败，节点会返回兜底值（如 0 / 空字符串）并打印错误日志。
 
 ### 2. 安装步骤
-1、下载本插件，将文件夹放入 `ComfyUI/custom_nodes/` 目录下；
+方法一：
+1、下载本插件，将文件夹放入“ComfyUI\custom_nodes”目录下；
 2、重启 ComfyUI，在节点面板的「👻幻影工具」分类下即可看到所有节点。
+方法二：
+1、在“ComfyUI\custom_nodes”文件夹右键。
+2、选择在终端中打开（或者文件夹地址栏输入cmd）。
+3、输入git clone https://github.com/wer2288/ComfyUI-Phantom-Tool.git并回车；
+4、重启 ComfyUI，在节点面板的「👻幻影工具」分类下即可看到所有节点。。
