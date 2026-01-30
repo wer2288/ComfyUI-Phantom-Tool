@@ -4,6 +4,7 @@ from .numeric_calculator_node import NumericCalculatorNode
 from .multiple_modifier_node import MultipleModifierNode
 from .any_selector_node import AnySelectorNode
 from .video_frame_extract_node import VideoFrameExtractNode
+from .prompt_translate_node import PromptTranslateNode
 
 NODE_CLASS_MAPPINGS = {
     "TXTLoaderNode": TXTLoaderNode,
@@ -11,7 +12,8 @@ NODE_CLASS_MAPPINGS = {
     "NumericCalculatorNode": NumericCalculatorNode,
     "MultipleModifierNode": MultipleModifierNode,
     "AnySelectorNode": AnySelectorNode,
-    "VideoFrameExtractNode": VideoFrameExtractNode
+    "VideoFrameExtractNode": VideoFrameExtractNode,
+    "PromptTranslateNode": PromptTranslateNode
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -20,7 +22,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "NumericCalculatorNode": "数值计算器",
     "MultipleModifierNode": "倍数修改器",
     "AnySelectorNode": "任意选择器",
-    "VideoFrameExtractNode": "视频首尾帧获取"
+    "VideoFrameExtractNode": "视频首尾帧获取",
+    "PromptTranslateNode": "提示词翻译"
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
