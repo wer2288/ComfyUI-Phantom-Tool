@@ -33,8 +33,8 @@ class PromptTranslateNode:
             "required": {
                 "输入文本": ("STRING", {
                     "default": "",
-                    "multiline": True,  # 大大的多行文本输入框
-                    "placeholder": "请输入需要翻译的提示词（支持多行）",
+                    "multiline": True,  # 多行文本输入框
+                    "placeholder": "请输入需要翻译的提示词",
                     "tooltip": "支持多行文本，中英自动检测/手动指定翻译"
                 }),
                 "源语言": (["自动检测", "中文", "英文"], {
@@ -77,7 +77,7 @@ class PromptTranslateNode:
         if missing_files:
             raise FileNotFoundError(
                 f"缺少翻译模型文件，请放入 {model_dir} 目录：\n" + "\n".join(missing_files) +
-                "\n模型下载地址：https://pan.baidu.com/s/1kfXkS8eV6U8G9H7J6K5L4M（备用）| https://argosopentech.com/argospm/index/"
+                "\n模型下载地址：https://www.modelscope.cn/models/wer277/translate/files（备用）| https://www.argosopentech.com/argospm/index/"
             )
 
         # 安装模型：仅安装未被安装的，避免重复操作触发异常
