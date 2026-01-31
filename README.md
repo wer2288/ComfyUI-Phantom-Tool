@@ -1,6 +1,6 @@
 # ComfyUI-Phantom-Tool
 ## 👻幻影工具 - ComfyUI 实用节点插件
-* 一套面向ComfyUI的多功能实用节点集合，包含数值计算、文本处理、视频帧提取、数据选择等高频使用功能，适配多类型输入，提供友好的中文交互体验。
+* 一套面向ComfyUI的多功能实用节点集合，包含提示词翻译（本地）、数值计算、文本处理、视频帧提取、数据选择等高频使用功能，适配多类型输入，提供友好的中文交互体验。
 
 ![node](https://github.com/user-attachments/assets/7813ea1d-15a7-4f98-9a39-bad5fec58d85)
 
