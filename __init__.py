@@ -27,3 +27,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 }
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
+
+# 新增：启动日志输出
+import logging
+logger = logging.getLogger(__name__)
+logger.info("👻幻影工具-✅已启动...")
