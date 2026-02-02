@@ -2,10 +2,7 @@
 ## 👻幻影工具 - ComfyUI 实用节点插件
 * 一套面向ComfyUI的多功能实用节点集合，包含提示词翻译（本地）、数值计算、文本处理、视频帧提取、数据选择等高频使用功能，适配多类型输入，提供友好的中文交互体验。
 
-![node](https://github.com/user-attachments/assets/7813ea1d-15a7-4f98-9a39-bad5fec58d85)
-
-<img width="1182" height="604" alt="image" src="https://github.com/user-attachments/assets/21e55380-4afb-47af-8716-d5196c1cf309" />
-
+![node](https://github.com/user-attachments/assets/d9c81c21-b70a-42c8-8328-417a25c3d882)
 
 ## 特别声明：
 * 本插件的所有节点均由AI开发，提供者（@幻影）不懂代码，如不好用或有BUG请删除。
