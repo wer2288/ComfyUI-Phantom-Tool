@@ -68,7 +68,7 @@
 
 ## 安装步骤
 #### 需安装argostranslate>=1.9.0依赖包（提示词翻译要用到）：
-在ComfyUI-Phantom-Tool文件夹中安装requirment.txt；
+在ComfyUI-Phantom-Tool文件夹中安装requirements.txt；
 ./ComfyUI/python_embeded/python -m pip install -r requirements.txt；  
 #### 方法一：
 1、下载本插件，将文件夹放入“ComfyUI\custom_nodes”目录下；  
